@@ -11152,6 +11152,66 @@ textarea.form-control-lg {
     padding-right: 0.25rem !important;
   }
 
+  .floating-parent{
+    position: fixed;
+    bottom: 18%;
+    right: 18px;
+    text-align: center;
+    color: #ffcd39;
+  }
+
+  .logo{
+    height: 170px;
+    width: 350px;
+    background: url(./../CG-Logo+-+PNGfAsset+39-8.png);
+    background-color: unset;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: center;
+    padding-top: 1%;
+
+  }
+
+  .floating-parent .right-button{
+    width: 60px;
+    height: 60px;
+    background: url(./../assets/img/png-clipart-chatbot-internet-bot-business-natural-language-processing-facebook-messenger-business-people-logo-thumbnail.png);
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-color: darkorange;
+    background-size: 30px;
+    background-position: center;
+    float: right;
+    margin: 0 auto;
+    cursor: pointer;
+    box-shadow: 0 -2px 3px -1px #ffcd39;
+
+  }
+
+  .floating-parent .widgetlabel{
+    position: relative;
+    right: 10px;
+    top: 10px;
+    white-space: nowrap;
+    border: 0px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 16px;
+    padding: 10px 15px 10px 20px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgb(0 18 46 / 24%) 0px 6px 32px 0px;
+
+  }
+
+  .floating-parent .emoji{
+    width: 20px;
+    margin: 0 10px 2px;
+    user-select: none;
+  }
+
   .pe-xxl-2 {
     padding-right: 0.5rem !important;
   }
@@ -11323,8 +11383,8 @@ header.masthead h1, header.masthead .h1 {
 }
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 3rem;
+    padding-bottom: 16.1rem;
   }
   header.masthead h1, header.masthead .h1 {
     font-size: 3rem;
@@ -11343,6 +11403,8 @@ header.masthead h1, header.masthead .h1 {
     padding: 7rem;
   }
 }
+
+
 
 .testimonials {
   padding-top: 7rem;
